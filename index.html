@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>가교 — 가정교회 목회일기</title>
+<title>아리(Re) — 가정교회 목장 사역</title>
 <meta name="description" content="가정교회 목자·목녀의 사역을 돕는 앱. 목회일기, 기도카드, 목장 가이드를 한곳에서.">
 <style>
   :root {
@@ -24,10 +24,9 @@
   }
   .wrap { max-width: 760px; margin: 0 auto; padding: 64px 20px 80px; }
   .logo {
-    width: 72px; height: 72px; border-radius: 18px; background: var(--brand);
-    display: flex; align-items: center; justify-content: center; margin-bottom: 22px;
+    display: block; width: 72px; height: 72px; border-radius: 18px;
+    margin-bottom: 22px; object-fit: cover;
   }
-  .logo svg { width: 40px; height: 40px; }
   h1 { font-size: 34px; margin: 0 0 10px; letter-spacing: -0.03em; }
   .lead { font-size: 18px; color: var(--muted); margin: 0 0 32px; }
   .features { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 36px 0; }
@@ -43,14 +42,9 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="logo" aria-hidden="true">
-    <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M8 32V20a12 12 0 0 1 24 0v12" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>
-      <path d="M4 32h32" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/>
-    </svg>
-  </div>
+  <img class="logo" src="./logo.png" alt="아리(Re) 로고" width="72" height="72">
 
-  <h1>가교</h1>
+  <h1>아리 <span style="font-weight:500;opacity:.6">Re</span></h1>
   <p class="lead">가정교회 목자·목녀의 사역을 돕는 앱입니다.<br>목장 식구 한 사람 한 사람을 기억하고, 함께 기도합니다.</p>
 
   <div class="features">
@@ -80,6 +74,7 @@
     <p class="links">
       <a href="./privacy.html">개인정보 처리방침</a>
       <a href="./terms.html">이용약관</a>
+      <a href="./delete-account.html">계정 삭제</a>
       <a href="mailto:jyp@gagyo.org">문의</a>
     </p>
     <p style="margin:12px 0 0">© 2026 GAGYO LLC</p>
